@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RPS" verbose="1">
+
+	<parameter name="paper" value="PAPER" />
+	<parameter name="rock" value="ROCK" />
+	<parameter name="scissors" value="SCISSORS" />
+
+	<test name="testRPS">
+		<classes>
+		<class name="fr.p10.miage.rps.tests.RockPaperScissorsTest">
+				<methods>
+<!--					<include name="testWINPlay" />-->
+<!--					<include name="testLOSTPlay" />-->
+<!--					<include name="testTIEPlay" />-->
+<!--					<include name="testSessionWINPlay" />-->
+<!--					<include name="testSessionLOSTPlay" />-->
+<!--					<include name="testSessionTIEPlay" />-->
+<!--					<include name="testSessionGenTiePlay"/>-->
+<!--					<include name="testSessionGenWinPlay"/>-->
+<!--					<include name="testSessionGenLostPlay"/>-->
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+</suite>
